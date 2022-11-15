@@ -1,0 +1,76 @@
+웹(Web)구성
+
+1. HTML(뼈대 구성)
+하이퍼
+텍스트
+마크업
+랭귀지
+
+2. CSS(상위 스타일이 하위 스타일을 상속한다, 옷을 입힘)
+캐스캐이딩
+스타일
+시트
+
+웹호환성
+: 크로스브라우딩 - 이런걸 다 맞춰줘야됨
+- 크롬 : webkit기반
+- 사파리 : 사파리
+- 파이어폭스 : 모질라
+- 오페라 : 오페라
+- 웹 표준(W3C)을 준수했냐
+
+DOCTYPE html : HTML5 선언
+HTML5 캠퍼스
+
+meta태그
+: 정보를 알려줌
+<!-- 검색 관련 메타태그 -->
+<meta name="author" content="Whisker" />
+<meta name="keywords" content="휘스커, (주)휘스커, 휘스커 홈페이지, Whisker" />
+<meta name="copyright" content="Whisker" />
+<meta name="description" content="웹사이트 개발-고객에 감동을 드립니다-(주)휘스커">
+<meta name="subject" content="주제">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+: 이 웹사이트가 어떤 해상도로 보일지 기준 설정
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+: 기준을 엣지, 크롬 기준으로해라
+
+웹접근성
+: 웹 접근하는데 차별을 두지말자
+
+시멘틱 마크업
+: 태그 자체를 의미를 부여해서 쓰자
+
+웹 접근성 절차
+1. 사다리 목록
+- 장애인이 직접 사용하여 검사
+- 1년 마크를 줌
+2. 1년후 다시 재심사
+
+
+웹은 절차적으로 읽음
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
