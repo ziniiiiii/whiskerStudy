@@ -1,0 +1,38 @@
+#wrap{
+	position : relative;
+
+
+}
+
+#header{
+	background-color : #000;
+}
+
+#header::after{
+	content : "";
+	display : block;
+	clear : both;
+}
+
+#header #logo{
+	float:left;
+	color : #fff;
+
+}
+
+#header #nav {
+	float : left;
+	
+}
+
+#hearder #nav > ul {
+	margin-left : 30px;
+}
+
+#hearder #nav > ul::after{
+
+}
+
+#hearder #nav > ul > li {
+
+}
