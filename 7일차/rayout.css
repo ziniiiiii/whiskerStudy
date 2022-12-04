@@ -1,10 +1,10 @@
 #wrap{
 	position : relative;
-
-
 }
 
 #header{
+	display : block;
+	position : relative;
 	background-color : #000;
 }
 
@@ -21,18 +21,96 @@
 }
 
 #header #nav {
+	overflow:hidden;
 	float : left;
-	
 }
 
-#hearder #nav > ul {
-	margin-left : 30px;
+#header #nav ul{
+	display : block;
 }
 
-#hearder #nav > ul::after{
+#header #nav ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#header #nav ul > li{
+	overflow : hidden;
+	float : left;
+	width : 50px;
+	margin-right:15px;
+}
+
+#header #nav ul > li > a{
+	color : #fff;
+}
+
+#header .site-map{
+	float : right;
 
 }
 
-#hearder #nav > ul > li {
-
+#main{
+	position : relative;
+	text-align:center;
 }
+
+#main #section01{
+	display:inline-block;
+	background-color : gray;
+}
+
+#main #section02{
+	background-color : yellow;
+}
+
+#main #section02 ul{
+	display : inline-block;
+	position : relative;
+}
+
+#main #section02 ul::after{
+	content:"";
+	display : block;
+	clear : both;
+}
+
+#main #section02 ul > li{
+	overflow:hidden;
+	float:left;
+	width : 150px;
+	height : 150px;
+	margin-right:15px;
+}
+
+#main #section02 ul > .li-1 {
+	background-color : blue;
+}
+
+#main #section02 ul > .li-2 {
+	background-color : green;
+}
+
+#main #section02 ul > .li-3 {
+	background-color : pink;
+}
+
+#main #section02 ul > .li-4 {
+	background-color : red;
+}
+
+#footer{
+	position:relative;
+}
+
+#footer .logo{
+	float:left;
+}
+
+#footer .footer-info{
+	display:inline-block;
+}
+
+
+
