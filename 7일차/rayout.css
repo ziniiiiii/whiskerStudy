@@ -6,6 +6,7 @@
 	display : block;
 	position : relative;
 	background-color : #000;
+	text-align:center;
 }
 
 #header::after{
@@ -21,8 +22,8 @@
 }
 
 #header #nav {
+	display:inline-block;
 	overflow:hidden;
-	float : left;
 }
 
 #header #nav ul{
