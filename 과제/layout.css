@@ -1,0 +1,97 @@
+html,body{
+	height:100%;
+}
+
+#wrap{position:relative; min-height:100%;}
+
+#header{
+	display:flex;
+	justify-content:space-between;
+	height:70px;
+	border-bottom:2px solid #000;
+}
+
+#header #logo{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	margin-left:10px;
+}
+
+#header #nav{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+
+#header #nav ul{
+	display:flex;
+}
+
+#header #nav ul > li{
+	padding:0 50px;
+	font-size:20px;
+}
+
+#header .sitemap{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+
+}
+
+#main{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+
+#main .content #section-01{
+	text-align:center; 
+	padding-top:50px;
+}
+
+#main .content .con-area{
+	display:flex;
+	justify-content:space-between;
+	padding-top:50px;
+}
+
+#main .content #section-02{
+	
+}
+
+#main .content #section-02 ul{
+	display:flex;
+	
+}
+
+#main .content #section-02 ul > li{
+	width:200px;
+	height:200px;
+}
+
+#main .content #section-02 ul > li:nth-child(1){
+	background-color:pink;
+}
+
+#main .content #section-02 ul > li:nth-child(2){
+	background-color:black;
+}
+
+#main .content #section-02 ul > li:nth-child(3){
+	background-color:blue;
+}
+
+#main .content #section-02 ul > li:nth-child(4){
+	background-color:yellow;
+}
+
+
+
+
+
+
+
