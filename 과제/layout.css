@@ -57,15 +57,17 @@ html,body{
 	display:flex;
 	justify-content:space-between;
 	padding-top:50px;
+	width:1000px;
 }
 
 #main .content #section-02{
-	
+	padding:
 }
 
 #main .content #section-02 ul{
 	display:flex;
-	
+	justify-content:space-between;
+	width:100%;
 }
 
 #main .content #section-02 ul > li{
